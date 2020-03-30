@@ -15,8 +15,11 @@
                  {%- endif -%}">
 
   <link href="{{ '/assets/fonts/ubuntu/ubuntu-v11-latin-ext_latin-regular.woff' | prepend:site.baseurl }}"
-        rel='stylesheet'
-        type='text/css'>
+        rel="preload" as="font"
+        type='font/woff'>
+        <link href="{{ '/assets/fonts/RobotoSlab.ttf' | prepend:site.baseurl }}"
+        rel="preload" as="font"
+        type='font/ttf'>
   <link rel="stylesheet"
         href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
   <link rel="canonical"

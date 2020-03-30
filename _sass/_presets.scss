@@ -1,0 +1,20 @@
+$dimensions: 16 24 32 48 64 96 128 256;
+$family-sans-serif: "Ubuntu";
+$font-family-base: "Ubuntu";
+$title-family: "Roboto Slab";
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('/assets/fonts/RobotoSlab.ttf');
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('/assets/fonts/ubuntu/ubuntu-v11-latin-ext_latin-regular.woff');
+}
