@@ -4,7 +4,7 @@ echo -e "\n\e[96m === exit script if anything fails ===\e[0m"
 set -e
 
 export APK_SOURCE_PATH='/home/stefan/flutter/encrateia/build/app/outputs/apk/release'
-export VUEPRESS_DOWNLOAD_DIR='/home/stefan/vue/encrateia.informatom.com/.vuepress/public/download/'
+export JEKYLL_DOWNLOAD_DIR='/home/stefan/jekyll/encrateia.informatom.com/download/'
 
 echo -e "\n\e[96m === copy current apk's into vuepress assets ===\e[0m"
 cp $APK_SOURCE_PATH/app-armeabi-v7a-release.apk $VUEPRESS_DOWNLOAD_DIR
@@ -12,10 +12,10 @@ cp $APK_SOURCE_PATH/app-arm64-v8a-release.apk $VUEPRESS_DOWNLOAD_DIR
 cp $APK_SOURCE_PATH/app-x86_64-release.apk $VUEPRESS_DOWNLOAD_DIR
 
 echo -e "\n\e[96m === cd into vuepress site directory ===\e[0m"
-cd /home/stefan/vue/encrateia.informatom.com/
+cd /home/stefan/jekyll/encrateia.informatom.com/
 
 echo -e "\n\e[96m === build Vuepress release ===\e[0m"
-vuepress build 
+jekyll build
 
 echo -e "\n\e[96m === rsync to Server  ===\e[0m"
-rsync -vr /home/stefan/vue/encrateia.informatom.com/.vuepress/dist/ stefan@mittenin.at:/var/www/encrateia.informatom.com --delete
+rsync -vr /home/stefan/jekyll/encrateia.informatom.com/_site/ stefan@mittenin.at:/var/www/encrateia.informatom.com --delete
