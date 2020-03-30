@@ -1,53 +1,51 @@
-<footer class="footer">
-  <div class="columns">
-    <div class="column">
-      <h1 class="title is-size-4">Meta</h1>
-      <a href="#">Imprint</a>
-    </div>
+<div class="container">
+  <footer class="footer">
+    <div class="columns">
+      <div class="column">
+        <h1 class="title is-size-3">Legal</h1>
+        <ul>
+          <li><a href="/imprint/">Imprint</a></li>
+          <li><a href="/privacy/">GDPR & Privacy Statement</a></li>
+        </ul>
+      </div>
 
-    <div class="column">
-      <h1 class="title is-size-4">Latest Posts</h1>
-      <ul>
-        {%- for post in site.posts limit:5 -%}
+      <div class="column">
+        <h1 class="title is-size-3">Latest Posts</h1>
+        <ul>
+          {%- for post in site.posts limit:5 -%}
           <li href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title | truncate: 35 }}
           </li>
-        {%- endfor -%}
-      </ul>
+          {%- endfor -%}
+        </ul>
+      </div>
+
+      <div class="column">
+        <h1 class="title title is-size-3">Contact</h1>
+        <ul>
+          <li>
+            <span class="icon">
+              <i class="las la-envelope"></i>
+            </span>
+            <a href="mailto: stefan.haslinger@informatom.com">Email Stefan</a>
+          </li>
+          <li>
+            <span class="icon">
+              <i class="lab la-twitter"></i>
+            </span>
+            <a href="https://twitter.com/informatom">@informatom</a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="column">
-      <h1 class="title title is-size-4">Title</h1>
-      <a href="#">Link</a>
+    <div class="has-text-centered">
+      {{ site.title }} | License: AGPLv3 | Developed by Stefan Haslinger
     </div>
-
-    <div class="column">
-      <h1 class="title title is-size-4">Title</h1>
-      <ul>
-        <li>
-          <span class="icon">
-            <i class="fas fa-envelope"></i>
-          </span>
-          mail@example.com
-        </li>
-        <li>
-          <span class="icon">
-            <i class="fab fa-twitter"></i>
-          </span>
-          @twitter-handle
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="has-text-centered">
-    {{ site.title }} | &nbsp;
-  </div>
-</footer>
-
+  </footer>
+</div>
 {%- if page.custom_js -%}
-  {%- for js_file in page.custom_js -%}
-    <script src='{{ site.url }}/js/{{ js_file }}.js'
-            type="text/javascript"></script>
-  {%- endfor -%}
+{%- for js_file in page.custom_js -%}
+<script src='{{ site.url }}/js/{{ js_file }}.js' type="text/javascript"></script>
+{%- endfor -%}
 {%- endif -%}

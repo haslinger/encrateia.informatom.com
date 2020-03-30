@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: two_columns
 title: What is Encrateia? - The Full Monty
 permalink: /about/
 ---
