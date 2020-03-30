@@ -1,4 +1,8 @@
-# Download
+---
+layout: page
+title: Download
+permalink: /download/
+---
 
 You can download .apk-files for the 3 major architectures supporting Android:
 
