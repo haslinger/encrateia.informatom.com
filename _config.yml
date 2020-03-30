@@ -1,0 +1,15 @@
+title: Encrateia
+email: stefan.haslinger@informatom.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Your mobile fitness data analyzer app.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://encrateia.informatom.com" 
+twitter_username: jekyllrb
+github_username:  jekyll
+
+theme: jekyll-bulma
+plugins:
+  - jekyll-feed
+
+exclude:
+  - deploy
