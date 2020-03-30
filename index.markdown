@@ -2,7 +2,7 @@
 layout: home
 title: Encrateia
 
-# TODO:
+# TODO
 # heroImage: /runner.png
 # actionText: Read more →
 #actionLink: /about/
@@ -15,10 +15,6 @@ title: Encrateia
 > “power”)). It results in the meaning of power over yourself, power over your
 > own passions and instincts, self-control and self-mastery.
 > -- <cite>[Enkrateia in Wikipedia](https://en.wikipedia.org/wiki/Enkrateia)</cite>
-
-1
-<i class="las la-bicycle"></i>
-2
 
 ::: warning Is it production ready?
 Nope, it's in beta stage right now. But the development team is using it on a
