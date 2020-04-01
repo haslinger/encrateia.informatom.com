@@ -50,5 +50,7 @@ The .fit-file parser is a seperate library, you can find it at:
 <https://github.com/3schweinehunde/fit_parser>.
 
 If you have any questions regarding Encrateia, feel free to write an email to
-the main developer Stefan Haslinger using <stefan@3-schweinehun.de>
+the main developer <stefan.haslinger@3-schweinehun.de>.
+
+Ready for a [list of features](/features)?
 {% endcontentfor %}
