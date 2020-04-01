@@ -28,29 +28,37 @@ layout: default
         <div class="notification is-warning is-light">
           <p class="title is-5">Is it production ready?</p>
           <p>Nope, it's in beta stage right now. But the development team is using it on a
-          daily basis. So, it's useable.</p>
+            daily basis. So, it's useable.</p>
         </div>
       </div>
       <div class="column">
-        <div class="notification is-success is-light">
-        <p class="title is-5">Can I Test drive it on Android?</p>
-        <p>Yes you can download APKs from the <a href="/download/">Download Page</a>.</p>
-        <p>You can also get the code from the 
-           [Github Repo](https://github.com/3schweinehunde/encrateia) and compile it yourself.</p>
+        <div class="notification is-success is-light content">
+          <p class="title is-5">Can I Test drive it on Android?</p>
+          <ul>
+            <li>Yes you can download APKs from the 
+                <a href="/download/">Download Page</a>.</li>
+            <li>You can also get the code from the
+              <a href="https://github.com/3schweinehunde/encrateia">Github Repo(</a> 
+              and compile it yourself.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="notification is-danger is-light content">
+          <p class="title is-5">Can I Test drive it on iOS?</p>
+          <ul>
+            <li>In an easy way - not yet, but you will be able to test it via 
+                Apple's TestFlight program soon.</li>
+            <li>You can get the code from the
+              <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a> 
+              and compile it yourself.</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="column">
-      <div class="notification is-danger is-light">
-      <p class="title is-5">Can I Test drive it on iOS?</p>
-      <p>In an easy way - not yet, but you will be able to test it via Apple's TestFlight program soon.</p>
-      <p>You can get the code from the 
-         [Github Repo](https://github.com/3schweinehunde/encrateia) and compile it yourself.</p>
-    </div>
-  </div>
-  </div>
 
-  <div class="content">
-    {{ content }}
-  </div>
+    <div class="content">
+      {{ content }}
+    </div>
   </div>
 </section>
