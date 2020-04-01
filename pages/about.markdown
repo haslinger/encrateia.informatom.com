@@ -1,9 +1,10 @@
 ---
 layout: two_columns
-title: What is Encrateia? - The Full Monty
-permalink: /about/
+title: Why Encrateia and what Does it Do?
+permalink: /why_and_what/
 ---
 
+{% contentfor left %}
 Encrateia is an mobile application that wants to help you analyse your activity
 tracking data. In particular Encrateia analyzes .fit-Files that are created by
 many fitness trackers by default.
@@ -28,6 +29,9 @@ To get your data, we fetch information about your actitvities via the Strava API
 You have to authorize the Encrateia app to do so. As the .fit-files can only be
 downloaded from the web site (and not via the API) you have to provide your
 Strava credentials a second time.
+{% endcontentfor %}
+
+{% contentfor right %}
 
 Then you can use the [Download from Strava]-Button on the Athlete Screen to
 download the latest of your actitvties. They are stored on your device (and you
@@ -47,3 +51,4 @@ The .fit-file parser is a seperate library, you can find it at:
 
 If you have any questions regarding Encrateia, feel free to write an email to
 the main developer Stefan Haslinger using <stefan@3-schweinehun.de>
+{% endcontentfor %}

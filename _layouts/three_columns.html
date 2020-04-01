@@ -2,6 +2,14 @@
 layout: page
 ---
 
-<div class="content" style="column-count: 3;">
-  {{ content }}
+<div class="columns">
+  <div class="column content">
+    {% contentblock left %}
+  </div>
+  <div class="column content">
+    {% contentblock middle %}
+  </div>
+  <div class="column content">
+    {% contentblock right %}
+  </div>
 </div>
