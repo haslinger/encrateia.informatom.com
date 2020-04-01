@@ -25,4 +25,4 @@ those contents.
 
 ## License
 
-[![AGPLv3](/img/agplv3-155x51.png)](http://www.gnu.org/licenses/agpl-3.0.de.html)
+[![AGPLv3](/img/agplv3-155x51.png)](/license/)
