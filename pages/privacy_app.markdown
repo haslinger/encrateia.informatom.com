@@ -14,6 +14,7 @@ deleted and cannot be recreated.
 
 From now on we use Strava in short for the company
 [Strava Inc](http://www.strava.com/) and their web services.
+We have no affiliation to Strava whatsoever.
 
 ## Is there data leaving the device?
 
@@ -24,8 +25,6 @@ They are sent, whenever you press the [Download from Strava]-Button:
   information, which activities you have done
 * to log in to the Strava web site, to be able to download the .fit-files for
   your activities
-
-We have no affiliation to Strava whatsoever.
 
 ## Is there a way to use the app without a Strava account?
 
