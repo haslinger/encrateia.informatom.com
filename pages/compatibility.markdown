@@ -8,7 +8,8 @@ Encrateia works with the following devices
 
 * Garmin Forerunner 235 running watch
 * Garmin Forerunner 935 running watch
-* Stryd Foot Pod: Model 12 / Firmware 1.2.0 / Software 3
+* Stryd Foot Pod: model number 12 / firmware version 1.2.0 / software version 3
+* Stryd Foot Pod: model number 10 / Firmware Version 1.2.0 / software version 3
 * Polar H10 heart rate sensor
 
 ## Incompatibilities
