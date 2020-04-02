@@ -26,9 +26,9 @@ screenshots:
     filename: activity_menu
   - title: "Activity: Metadata overview"
     filename: activity_overview
-  - title: "Actitvity: Medadata Details part 1"
+  - title: "Actitvity: Medadata Details Part 1"
     filename: activity_metadata_1
-  - title: "Actitvity: Medadata Details part 2"
+  - title: "Actitvity: Medadata Details Part 2"
     filename: activity_metadata_2
   - title: "Activity: Heart Rate"
     filename: activity_heart_rate
@@ -68,6 +68,22 @@ screenshots:
     filename: lap_power_duration
   - title: "Lap: Ground Time"
     filename: lap_ground_time
+  - title: "Lap: Leg Spring Stiffness"
+    filename: lap_leg_spring_stiffness
+  - title: "Lap: Form Power"
+    filename: lap_form_power
+  - title: "Lap: Cadence"
+    filename: lap_cadence
+  - title: "Lap: Vertical Oscillation"
+    filename: lap_vertical_oscillation
+  - title: "Lap: Medadata Details Part 1"
+    filename: lap_metadata_1
+  - title: "Lap: Medadata Details Part 2"
+    filename: lap_metadata_2
+  - title: "Lap: Medadata Details Part 3"
+    filename: lap_metadata_2
+  - title: "Athlete: Update Metadata"
+    filename: athlete_update_metadata
 ---
 
 Everybody loves screenshots. So here is quite a lot of them. Click on one of
