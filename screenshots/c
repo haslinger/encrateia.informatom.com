@@ -1,0 +1,2 @@
+#/bin/bash
+convert  -resize 25% $1.png  ../thumbnails/$1.png

@@ -1,4 +1,5 @@
 ---
+# convert  -resize 25% activity_heart_rate.png  ../thumbnails/activity_heart_rate.png
 layout: gallery
 title: Gallery
 permalink: /gallery/
@@ -29,6 +30,44 @@ screenshots:
     filename: activity_metadata_1
   - title: "Actitvity: Medadata Details part 2"
     filename: activity_metadata_2
+  - title: "Activity: Heart Rate"
+    filename: activity_heart_rate
+  - title: "Activity: Power"
+    filename: activity_power
+  - title: "Activity: Power Duration"
+    filename: activity_power_duration
+  - title: "Activity: Power over Heart Rate"
+    filename: activity_power_over_heart_rate
+  - title: "Activity: Speed over Heart Rate"
+    filename: activity_speed_over_heart_rate
+  - title: "Activity: Ground Time"
+    filename: activity_ground_time
+  - title: "Activity: Form Power"
+    filename: activity_form_power
+  - title: "Activity: Power Ratio"
+    filename: activity_power_ratio
+  - title: "Activity: Vertical Oscillation"
+    filename: activity_vertical_oscillation
+  - title: "Actvity: Stride Ratio"
+    filename: acitvity_stride_ratio
+  - title: "All plots work in landscape as well, even more detailed"
+    filename: landscape
+  - title: "Activity: Cadence"
+    filename: activity_cadence
+  - title: "Activity: Leg Spring Stiffness"
+    filename: activity_leg_spring_stiffness
+  - title: "Activity: List of Laps"
+    filename: activity_list_of_laps
+  - title: "Lap: Overview"
+    filename: lap_overview
+  - title: "Lap: Heart Rate"
+    filename: lap_heart_rate
+  - title: "Lap: Power"
+    filename: lap_power
+  - title: "Lap: Power Duration"
+    filename: lap_power_duration
+  - title: "Lap: Ground Time"
+    filename: lap_ground_time
 ---
 
 Everybody loves screenshots. So here is quite a lot of them. Click on one of
