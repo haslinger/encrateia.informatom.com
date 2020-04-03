@@ -6,8 +6,12 @@ permalink: /gallery/
 screenshots:
   - title: Application Home Screen
     filename: dash
+  - title: Adding Another Athlete
+    filename: adding_athlete
   - title: Athlete Overview
     filename: athlete
+  - title: Deleting an Athlete
+    filename: deleting_athlete
   - title: Activities List
     filename: activities_list
   - title: "Athlete: Settings"
