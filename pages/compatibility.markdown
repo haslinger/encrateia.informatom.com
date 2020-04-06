@@ -17,3 +17,9 @@ Encrateia works with the following devices
 Encrateia DOES NOT work with the following devices:
 
 * Garmin Forerunner 305 (does not create .fit-files)
+
+## Please share your findings
+
+Feel free to test it on any .fit-file generating device you own and please let
+us know via [email](mailto: stefan.haslinger@informatom.com), if it did work out.  
+We would love to be able to extend the compatibility list with your findings.
