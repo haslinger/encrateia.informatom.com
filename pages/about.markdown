@@ -66,8 +66,8 @@ one for the [web page](/privacy_web).
 Encrateia is, while not for free, an open source application. Have a look at the page
 [Source Code](/source/), if you want to check it out and/or compile Encrateia yourself.
 
-If you have any questions regarding Encrateia, feel free to write an email to
-the main developer <stefan.haslinger@3-schweinehun.de>.
+If you have any questions regarding Encrateia, feel free to write us an email 
+<mailto:encrateia@informatom.com>.
 
 * Ready for a [list of features](/features)?
 * Or do you prefer our huge screenhot [Gallery](/gallery/)?

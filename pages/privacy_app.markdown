@@ -63,4 +63,4 @@ Vorgartenstrasse 145/2/3
 1020 Wien, Austria
 
 <i class="las la-phone"></i> +43 680 213 3030  
-<i class="las la-at"></i> [stefan.haslinger@informatom.com](mailto://stefan.haslinger@informatom.com)
+<i class="las la-at"></i> <mailto:encrateia@informatom.com>

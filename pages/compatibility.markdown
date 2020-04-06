@@ -21,5 +21,5 @@ Encrateia DOES NOT work with the following devices:
 ## Please share your findings
 
 Feel free to test it on any .fit-file generating device you own and please let
-us know via [email](mailto: stefan.haslinger@informatom.com), if it did work out.  
+us know via <mailto:encrateia@informatom.com>, if it did work out.  
 We would love to be able to extend the compatibility list with your findings.

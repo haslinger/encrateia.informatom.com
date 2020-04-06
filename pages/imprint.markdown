@@ -10,7 +10,7 @@ Mag. Stefan Haslinger
 Vorgartenstrasse 145/2/3  
 1020 Wien  
 Austria  
-stefan.haslinger@informatom.com
+<mailto:encrateia@informatom.com>
 
 ## Links
 
