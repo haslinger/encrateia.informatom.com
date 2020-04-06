@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="section container">
+<section class="section">
+  <div class="container">
     <div class="columns">
       <div class="column has-text-centered">
         <figure class="image container is-256x256">
@@ -19,41 +20,52 @@ layout: default
         </a>
       </div>
       <div class="column">
-        <div class="notification is-warning is-light">
-          <p class="title is-5">Is it production ready?</p>
-          <p>No, it's in beta stage right now.<br/>The development team is using it on a
-            daily basis. So, it's useable.</p>
-        </div>
-        <div class="notification is-success is-light content">
-          <p class="title is-5">Can I test drive it on Android?</p>
-          <ul>
-            <li>Yes, you can download APKs for different architectures from the 
+        <div class="message is-success content">
+          <div class="message-header">Can I test drive it on Android?</div>
+          <div class="message-body content">
+            <ul>
+              <li>Yes, you can download APKs for different architectures from the
                 <a href="/download/">Download Page</a>.</li>
-            <li>Developers and enthusiasts can get the code from the
-              <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a> 
-              and compile it themselves.</li>
-          </ul>
+              <li>Developers and enthusiasts can get the code from the
+                <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a>
+                and compile it themselves.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="message is-warning ">
+          <div class="message-header">Is it production ready?</div>
+          <div class="message-body">No, it's in beta stage right now.<br />
+            The development team is using it on a
+            daily basis. So, it's useable.
+          </div>
         </div>
       </div>
       <div class="column">
-        <div class="notification is-info is-light">
-          <p class="title is-5">Does it work with my devices?</p>
-          <p>Have a look at the <a href="/compatibility">compatibility list</a>.</p>
-        </div>
-        <div class="notification is-danger is-light content">
-          <p class="title is-5">Can I test drive it on iOS?</p>
-          <ul>
-            <li>Not in a convenient way, but you will be able to test it via 
+        <div class="message is-danger">
+          <div class="message-header">Can I test drive it on iOS?</div>
+          <div class="message-body content">
+            <ul>
+              <li>Not in a convenient way, but you will be able to test it via
                 Apple's TestFlight program soon.</li>
-            <li>Meanwhile, developers and enthusiasts can get the code from the
-              <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a> 
-              and compile it themselves.</li>
-          </ul>
+              <li>Meanwhile, developers and enthusiasts can get the code from the
+                <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a>
+                and compile it themselves.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="message is-info">
+          <div class="message-header">Does it work with my devices?</div>
+          <div class="message-body">
+            Have a look at the <a href="/compatibility">compatibility list</a>.
+          </div>
         </div>
       </div>
+    </div>
   </div>
 </section>
 
-<section class="section container content">
-  {{ content }}
+<section class="section">
+  <div class="container content">
+    {{ content }}
+  </div>
 </section>
