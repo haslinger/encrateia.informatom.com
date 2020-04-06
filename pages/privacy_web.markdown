@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Privacy and GDPR Compliance 
+title: Privacy Statement and GDPR Compliance 
 permalink: /privacy_web/
 ---
 

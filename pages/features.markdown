@@ -75,6 +75,7 @@ documents directory on your mobile device.)
     * average speed
     * maximum speed
 * power (plot)
+  * Find your Stryd (the last geo coordinates, where your watch could get data from the foot pod)
 * power duration diagram (the time axes has logarithmic scale)
 * speed over heart rate (plot)
 * form power (plot)

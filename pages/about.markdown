@@ -1,7 +1,7 @@
 ---
 layout: two_columns
 title: Why Encrateia and what Does it Do?
-permalink: /why_and_what/
+permalink: /about/
 ---
 
 {% contentfor left %}
@@ -12,6 +12,8 @@ many fitness trackers by default.
 Encrateia is quite a sophisticated piece of application with 20+ charts, and
 10+ reports, so we thought, we'd share the rationale behind Encrateia and what
 it actually does:
+
+## Using Encrateia with Strava
 
 A lot of runners and cyclists upload their activity data to Strava, to be able
 to share and analyse and because storage capacity on tracking devices is
@@ -29,9 +31,6 @@ To get your data, we fetch information about your actitvities via the Strava API
 You have to authorize the Encrateia app to do so. As the .fit-files can only be
 downloaded from the web site (and not via the API) you have to provide your
 Strava credentials a second time.
-{% endcontentfor %}
-
-{% contentfor right %}
 
 Then you can use the [Download from Strava]-Button on the Athlete Screen to
 download the latest of your actitvties. They are stored on your device (and you
@@ -40,17 +39,36 @@ Then tha .fit-files are parsed and the data is stored in a local SQLite
 database on the device. This takes quite some time, parsing is quick, but
 storing is 20 to 30 seconds per activtity.
 That makes later analysis a lot quicker and it has only to be done once.
+{% endcontentfor %}
 
-No data is leaving your device, neither to the developer of Encrateia, nor to
+{% contentfor right %}
+
+## Using Encrateia without Strava
+
+If you do not share any data with Strava, you can still use Encrateia importing 
+your .fit-files manually.
+
+Create a users with the second option "Create a Standalone User". Then put your 
+.fit-files into the documents directory of the Encrateia app on your mobile 
+device. To help you identify that directory, we placed a file named 
+put_your_fit_files_here.txt there.
+
+Finally, use the Button "Import from Local Directory" on the athlete detail 
+screen to actually upload the tracking data into Encrateia.
+
+## Why should I trust you?
+
+No activity data is leaving your device, neither to the developer of Encrateia, nor to
 any third party service. We believe, your activity data should be stricty yours.
+Have a look at out [Privacy Statement](/privacy_app/). There is also a seperate
+one for the [web page](/privacy_web).
 
-Encrateia is, while not for free, an open source application. The source code
-can be retrieved from GitHub at: <https://github.com/3schweinehunde/encrateia>
-The .fit-file parser is a seperate library, you can find it at:
-<https://github.com/3schweinehunde/fit_parser>.
+Encrateia is, while not for free, an open source application. Have a look at the page
+[Source Code](/source/), if you want to check it out and/or compile Encrateia yourself.
 
 If you have any questions regarding Encrateia, feel free to write an email to
 the main developer <stefan.haslinger@3-schweinehun.de>.
 
-Ready for a [list of features](/features)?
+* Ready for a [list of features](/features)?
+* Or do you prefer our huge screenhot [Gallery](/gallery/)?
 {% endcontentfor %}
