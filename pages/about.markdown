@@ -17,11 +17,11 @@ it actually does:
 
 A lot of runners and cyclists upload their activity data to Strava, to be able
 to share and analyse and because storage capacity on tracking devices is
-limited. Old tracking data is typically deleted without asking the user for
-consent.
+limited. Old tracking data is typically deleted from your device without asking
+you for consent.
 
 We want to provide a possibility for you to get all your fitness data back and
-because you already own a smart phone and tablet we went the route to create
+because you already own a smart phone or tablet we went the route to create
 this app.
 
 Encrateia helps you download your original tracking data - the .fit-files from
@@ -35,38 +35,39 @@ Strava credentials a second time.
 Then you can use the [Download from Strava]-Button on the Athlete Screen to
 download the latest of your actitvties. They are stored on your device (and you
 could create a backup manually, if you like).
-Then tha .fit-files are parsed and the data is stored in a local SQLite
+Then that .fit-files are parsed and the data is stored in a local SQLite
 database on the device. This takes quite some time, parsing is quick, but
 storing is 20 to 30 seconds per activtity.
-That makes later analysis a lot quicker and it has only to be done once.
+However, that makes later analysis a lot quicker and it has only to be done once.
 {% endcontentfor %}
 
 {% contentfor right %}
 
 ## Using Encrateia without Strava
 
-If you do not share any data with Strava, you can still use Encrateia importing 
+If you do not have a Strava account, you can still use Encrateia importing
 your .fit-files manually.
 
-Create a users with the second option "Create a Standalone User". Then put your 
-.fit-files into the documents directory of the Encrateia app on your mobile 
-device. To help you identify that directory, we placed a file named 
+Create a users with the second option "Create a Standalone User". Then put your
+.fit-files into the documents directory of the Encrateia app on your mobile
+device. You can download the .fit files from e.g. Garmin Connect via batch export.
+To help you identify that directory, we placed a file named
 put_your_fit_files_here.txt there.
 
-Finally, use the Button "Import from Local Directory" on the athlete detail 
+Finally, use the Button "Import from Local Directory" on the athlete detail
 screen to actually upload the tracking data into Encrateia.
 
 ## Why should I trust you?
 
 No activity data is leaving your device, neither to the developer of Encrateia, nor to
-any third party service. We believe, your activity data should be stricty yours.
-Have a look at out [Privacy Statement](/privacy_app/). There is also a seperate
+any third party service. We believe, your activity data should be strictly yours.
+Have a look at our [Privacy Statement](/privacy_app/). There is also a seperate
 one for the [web page](/privacy_web).
 
 Encrateia is, while not for free, an open source application. Have a look at the page
 [Source Code](/source/), if you want to check it out and/or compile Encrateia yourself.
 
-If you have any questions regarding Encrateia, feel free to write us an email 
+If you have any questions regarding Encrateia, feel free to write us an email
 <mailto:encrateia@informatom.com>.
 
 * Ready for a [list of features](/features)?
