@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 {% contentfor left %}
-Encrateia is an mobile application that wants to help you analyse your activity
+Encrateia is a mobile application that wants to help you analyse your activity
 tracking data. In particular Encrateia analyzes .fit-Files that are created by
 many fitness trackers by default.
 
