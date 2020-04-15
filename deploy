@@ -3,6 +3,12 @@
 echo -e "\n\e[96m === exit script if anything fails ===\e[0m"
 set -e
 
+echo -e "\n\e[96m === cd into flutter app directory for Encrateia ===\e[0m"
+cd "/home/stefan/flutter/encrateia"
+
+echo -e "\n\e[96m === build apks ===\e[0m"
+flutter build apk --split-per-abi
+
 export APK_SOURCE_PATH='/home/stefan/flutter/encrateia/build/app/outputs/apk/release'
 export JEKYLL_DOWNLOAD_DIR='/home/stefan/jekyll/encrateia.informatom.com/download/'
 
