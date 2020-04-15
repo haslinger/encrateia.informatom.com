@@ -13,4 +13,4 @@ You can download .apk-files for the 3 major architectures supporting Android:
 * [64bit Intel x86](./app-x86_64-release.apk)  
   some tablets run on Intel processors
 
-The current version is from Friday, April 3rd 2020, 16:55.
+The current version is from {{ "now" | date: "%A, %B %e %Y, %R" }}.
