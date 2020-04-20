@@ -24,3 +24,7 @@ to play with, we got you covered:
   [3-Schweinehunde half marathon in Munich](/assets/fit-files/munich_half_marathon.fit)
 * Stefan's recording of the 
   [3-Schweihenunde listener run in Cologne](/assets/fit-files/listener_meetup_run_cologne.fit)
+* Steve's recording of his 
+  [Stockholm half marathon](/assets/fit-files/stockholm_half_marathon.fit)
+* Steve's recording of his 
+  [Upper Palatinate Winter Challenge half marathon](/assets/fit-files/upper_palatinate_winter_challenge_half_marathon.fit)
