@@ -12,7 +12,7 @@ Encrateia would not exist if it were not for these people (i.a.o.):
   [strava_flutter](https://pub.dev/packages/strava_flutter#-installing-tab-)
   library
 * [Stefan Dillinger](https://raincastle.blog) - trainer of 3 Schweinehunde,
-  scientific advisor, and beta tester
+  scientific advisor, and beta tester, a.k.a. Steve
 * [Stefan Haslinger](https://informatom.com) - Schweinehund and development
 
 Schweinehund is german for one's shoulder devil. Literal translation is pig-dog.
