@@ -27,8 +27,10 @@ into issues using their libraries. Especially to me meantioned are:
 
 * [Patrick Finkelstein](https://github.com/BirdyF) - developer of
   [strava_flutter](https://pub.dev/packages/strava_flutter#-installing-tab-)
-  library
+  library. We use strava_flutter to get the tokens vom the Strava API.
 * [Hüseyin Tokpınar](https://www.linkedin.com/in/huseyin-tokpinar-20ab75a4/) -
-  developer of [sqfEntity](https://pub.dev/packages/sqfentity)
+  developer of ORM-mapper [sqfEntity](https://pub.dev/packages/sqfentity).
+  We use sqfEntity to map our data models to sqLite records in the database on
+  the mobile devices.
 
 Thank you so much!
