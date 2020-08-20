@@ -23,13 +23,7 @@ layout: default
         <div class="message is-success content">
           <div class="message-header">Can I test drive it on Android?</div>
           <div class="message-body content">
-            <ul>
-              <li>Yes, you can download APKs for different architectures from the
-                <a href="/download/">Download Page</a>.</li>
-              <li>Developers and enthusiasts can get the code from the
-                <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a>
-                and compile it themselves.</li>
-            </ul>
+            {% contentblock android %} 
           </div>
         </div>
         <div class="message is-warning ">
@@ -44,13 +38,7 @@ layout: default
         <div class="message is-danger">
           <div class="message-header">Can I test drive it on iOS?</div>
           <div class="message-body content">
-            <ul>
-              <li>Not in a convenient way, but you will be able to test it via
-                Apple's TestFlight program soon.</li>
-              <li>Meanwhile, developers and enthusiasts can get the code from the
-                <a href="https://github.com/3schweinehunde/encrateia">Github Repo</a>
-                and compile it themselves.</li>
-            </ul>
+            {% contentblock apple %}            
           </div>
         </div>
         <div class="message is-info">
