@@ -9,6 +9,9 @@ can search for it within Git, Github or Gitlab.
 
 ## Version 0.4.8
 
+* `2020-09-11 14:32` [c2282b8](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/c2282b8) -  (HEAD -> master, origin/master, oberwart/master, github/master) clearing the changelog
+* `2020-09-11 14:28` [aa023bd](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/aa023bd) -  version bump: 0.4.8
+* `2020-09-11 13:44` [46c894a](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/46c894a) -  navigate from Interval Feed Widget to Interval Show Screen via tap
 * `2020-09-09 19:07` [eba26c9](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/eba26c9) -  show cursor as line + stripe
 * `2020-09-09 14:38` [c5a1400](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/c5a1400) -  intervals feed
 * `2020-09-09 13:01` [9a3fc26](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/9a3fc26) -  autotag intervals, that have been created manually
