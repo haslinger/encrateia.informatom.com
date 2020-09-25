@@ -7,6 +7,44 @@ permalink: /changelog/
 The hexadecimal number at the beginning of each line is the commit hash. You
 can search for it within Git, Github or Gitlab.
 
+## Version 0.4.9
+
+* `2020-09-25 09:21` [e5c4d63](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/e5c4d63) -  version bump to 0.4.9 and flutter upgrade
+* `2020-09-25 08:50` [72987c0](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/72987c0) -  filter for valid ecors only"
+* `2020-09-25 08:37` [c27de5d](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/c27de5d) -  sport selector for power,pace vs distance and power/hr
+* `2020-09-24 16:04` [624e413](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/624e413) -  type annotations
+* `2020-09-24 16:02` [f33296d](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/f33296d) -  sport selector for ftp and power ratio athlete diagrams
+* `2020-09-24 15:56` [b3104e8](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/b3104e8) -  sport selector for ecor and power athlete diagrams
+* `2020-09-24 15:49` [62b8128](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/62b8128) -  sport selector for styd cadence and speed per heart rate athlete diagrams
+* `2020-09-24 15:41` [0dbe8c2](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/0dbe8c2) -  sport selector for pace and hr athlete diagrams
+* `2020-09-24 14:58` [dfd1d2c](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/dfd1d2c) -  add 'all' option to sports for moving time and distance to select all activities
+* `2020-09-24 14:31` [8af3d32](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/8af3d32) -  sizing of lap bars"
+* `2020-09-24 13:13` [b7b4c0d](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/b7b4c0d) -  skip pauses by moving ahead lastTimestamp with every start event
+* `2020-09-24 11:50` [2e9d11d](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/2e9d11d) -  extend record list to be an event list
+* `2020-09-23 17:06` [732f838](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/732f838) -  optimize record viewer for smaller devices
+* `2020-09-23 16:52` [9079401](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/9079401) -  show record details on selection for lap pace screen
+* `2020-09-23 15:46` [7f8a681](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/7f8a681) -  invert drawing order to let last activity stand out
+* `2020-09-23 15:42` [45cf92a](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/45cf92a) -  pace vs distance chart
+* `2020-09-23 15:32` [607dcb5](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/607dcb5) -  capture shorter activity lists
+* `2020-09-22 15:38` [0fec199](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/0fec199) -  power vs. distance
+* `2020-09-22 12:12` [e80e727](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/e80e727) -  moving time over time
+* `2020-09-22 12:04` [81ab76a](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/81ab76a) -  performance improvements and code refactoring
+* `2020-09-21 15:09` [bac00c8](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/bac00c8) -  distance volume diagram
+* `2020-09-19 21:11` [85953f4](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/85953f4) -  bugfix: swiping between intervals
+* `2020-09-19 18:34` [48a5a31](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/48a5a31) -  bugfix: don't hide interval list any more
+* `2020-09-18 14:12` [9fc2b4c](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/9fc2b4c) -  use enhanced_avg_speed if avg_speed is maxed out
+* `2020-09-17 18:18` [e49fc77](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/e49fc77) -  volume widget, sports selection & filtering
+* `2020-09-17 12:24` [1acbe34](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/1acbe34) -  .png-generation for all lap charts
+* `2020-09-17 12:15` [59ea6a1](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/59ea6a1) -  .png-generation for all athlete and interval charts
+* `2020-09-17 11:41` [ff5fc05](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/ff5fc05) -  .png-generation for all activity charts
+* `2020-09-16 18:42` [abd8666](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/abd8666) -  .png-generation for more charts
+* `2020-09-14 17:46` [5abe8da](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/5abe8da) -  unparseable activities should not be parsed
+* `2020-09-14 17:39` [a6b2530](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/a6b2530) -  navigation to activity should be possible from feed list for all states
+* `2020-09-12 09:02` [007d4d5](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/007d4d5) -  merge in changes for iOS
+* `2020-09-12 08:59` [358a78e](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/358a78e) -  bugfix: wrong records used for distance calculation
+* `2020-09-11 16:09` [f9b7940](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/f9b7940) -  updated compile settings for iOS
+* `2020-09-11 14:32` [c2282b8](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/c2282b8) -  clearing the changelog
+
 ## Version 0.4.8
 
 * `2020-09-11 14:28` [aa023bd](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/aa023bd) -  version bump: 0.4.8
