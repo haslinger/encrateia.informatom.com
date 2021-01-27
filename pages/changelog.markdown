@@ -7,6 +7,19 @@ permalink: /changelog/
 The hexadecimal number at the beginning of each line is the commit hash. You
 can search for it within Git, Github or Gitlab.
 
+## Version 0.4.11
+
+* `2021-01-27 13:54` [2d6f117](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/2d6f117) -  version bump to 0.4.11
+* `2021-01-12 00:51` [f96643f](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/f96643f) -  referenced correct watch type
+* `2021-01-12 00:40` [67460d6](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/67460d6) -  ignore hrv data messages
+* `2021-01-12 00:30` [d8c6679](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/d8c6679) -  ignore message type 329
+* `2020-12-27 12:05` [e4f6dd8](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/e4f6dd8) -  update ios compatibility settings
+
+## Version 0.4.10
+
+* `2020-12-27 11:45` [f569405](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/f569405) -  upgrade android Flutter wrappers
+* `2020-12-27 10:47` [8462364](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/8462364) -  push version to 0.4.10 for apple re-deployment
+
 ## Version 0.4.9
 
 * `2020-09-25 09:21` [e5c4d63](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/e5c4d63) -  version bump to 0.4.9 and flutter upgrade
