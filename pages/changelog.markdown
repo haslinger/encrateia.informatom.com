@@ -7,6 +7,16 @@ permalink: /changelog/
 The hexadecimal number at the beginning of each line is the commit hash. You
 can search for it within Git, Github or Gitlab.
 
+## Version 0.4.12
+
+* `2021-05-02 12:31` [903eef7](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/903eef7) -  version bump to 0.4.12
+* `2021-05-02 10:53` [bd39d8b](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/bd39d8b) -  try to use enhanced_altitude if there is no altitude
+* `2021-05-02 10:46` [73531f1](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/73531f1) -  bugfix: use enhanced average speed on lap level
+* `2021-05-02 10:33` [75e9b0f](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/75e9b0f) -  make all flat buttons ElevatedButton-s with color:MyColor.primary
+* `2021-05-01 19:09` [fe1348d](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/fe1348d) -  fixed all linter warnings after flutter upgrade
+* `2021-05-01 18:51` [576e4a1](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/576e4a1) -  textColor and Color via MyButtonStyle....
+* `2021-05-01 15:13` [1628a1c](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/1628a1c) -  upgraded flutter and started to fix deprecations
+
 ## Version 0.4.11
 
 * `2021-01-27 13:54` [2d6f117](https://gitlab.informatom.com/3-schweinehunde/encrateia/-/commit/2d6f117) -  version bump to 0.4.11

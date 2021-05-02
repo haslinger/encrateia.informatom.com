@@ -16,7 +16,7 @@ title: Encrateia
 * You can test Encrateia on iOS via Apple's Testflight Program. See our
   [TestFlight](/testflight) page for details.
 * Furthermore, developers and enthusiasts can get the code from the
-  [Github Repo](https://github.com/3schweinehunde/encrateia">) or the 
+  [Github Repo](https://github.com/3schweinehunde/encrateia">) or the
   [Gitlab Repo](https://gitlab.informatom.com/3-schweinehunde/encrateia)
   and compile it themselves.
 {% endcontentfor %}
