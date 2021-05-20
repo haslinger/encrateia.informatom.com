@@ -24,4 +24,4 @@ echo -e "\n\e[96m === build Jekyll release ===\e[0m"
 jekyll build
 
 echo -e "\n\e[96m === rsync to Server  ===\e[0m"
-rsync -vr /home/stefan/jekyll/encrateia.informatom.com/_site/ stefan@mittenin.at:/var/www/encrateia.informatom.com --delete
+rsync -vr /home/stefan/jekyll/encrateia.informatom.com/_site/ stefan@alpha:/var/www/encrateia.informatom.com/html --delete
