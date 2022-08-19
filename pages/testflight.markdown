@@ -4,15 +4,13 @@ title: TestFlight
 permalink: /testflight/
 ---
 
-You can Test Encrateia via Apple's Test Flight program on iOS devices.
+Unfortunately, I can no longer submit Encrateia for Apple's Test Flight.
+My MacBook Pro is no longer supported for OSX upgrades, so I don't get the
+latest XCode version 13, which is now required for uploading new versions.
 
-To be able to participate, install the
-[Test Flight App](https://apps.apple.com/at/app/testflight/id899247664) from the
-App store on your mobile Device.
+I already bought that particular MacBook just for Encrateia and I am not going
+to spend a high 3 digit number of 4 digit number (Euros) to get another one just
+for this particular purpose. Sorry iPhone users.
 
-Use this [invite link for Encrateia](https://testflight.apple.com/join/RzIM0Yr3)
-on your device to download the latest version and get notifications to updates,
-whenever we release a version for public TestFlight.
-
-We allow 25 new users each month, so please be patient, if the 25 invites
-for the current month are already taken by fellow testers.
+But Encrateia is open source. If you are willing to go through all the hassle
+deploying it to the Apple Store, all the power to you!
